@@ -1,0 +1,163 @@
+body {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   background-color: #446491;
+   color: #fff;
+}
+
+.hero {
+   height: 50vh;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.button {
+   height: 50vh;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+.btn {
+   transition-duration: 1000ms;
+   transition-timing-function: ease-in-out;
+}
+.btn:hover {
+   transition-duration: 500ms;
+   transition-timing-function: ease-in-out;
+   transform: scale(1.1, 1);
+   transition-property: all;
+}
+.h4 {
+   width: 50px;
+   transition-duration: 1000ms;
+}
+.cardCus {
+   position: relative;
+   height: 150px;
+   width: 150px;
+   background-color: #39bdc8;
+   cursor: pointer;
+   padding: 14px;
+   overflow-wrap: break-word;
+   transition-duration: 350ms;
+   transition-property: all;
+}
+
+.one {
+   background-color: #085f63;
+   border: 1px solid #085f63;
+   border-radius: 10px;
+   box-shadow: 5px 5px 5px #12484ba9, -3px -3px 5px #3a7d8185;
+}
+.one:hover {
+   height: 180px;
+   width: 180px;
+   transform: rotate(-30deg);
+}
+.two {
+   border-radius: 0px;
+   background: #324e7b;
+   box-shadow: 6px 6px 15px #20314d, -6px -6px 15px #456ba9;
+}
+.two:hover {
+   transition-duration: 1000ms;
+   transform: rotate(180deg);
+}
+
+.timing {
+   height: 50vh;
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+   padding: 15px 0px;
+}
+.bar {
+   width: 300px;
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transition-duration: 1000ms;
+   box-shadow: 5px 5px 5px #12484ba9, -3px -3px 5px #3a7d8185;
+}
+
+.three {
+   background-color: #59d4e8;
+   transition-timing-function: ease;
+}
+.hero .three {
+   background: #59d4e8;
+   box-shadow: 0px 5px 12px #13131380, 0px -5px 12px #456ba9;
+}
+.hero .three:hover {
+   transition-duration: 1000ms;
+   transform: scale(1.2, 1.2);
+}
+.four {
+   color: #000;
+   background-color: #f5b5fc;
+   transition-timing-function: ease-in;
+}
+.five {
+   color: #000;
+   background-color: #96f7d2;
+   transition-timing-function: ease-out;
+}
+.six {
+   color: #000;
+   background-color: #f0f696;
+   transition-timing-function: ease-in-out;
+}
+.seven {
+   color: #fff;
+   background-color: #ea5455;
+   transition-timing-function: linear;
+}
+.timing:hover .five,
+.timing:hover .six,
+.timing:hover .three,
+.timing:hover .four,
+.timing:hover .seven {
+   height: 300px;
+   transition-duration: 1000ms;
+}
+
+.timing:hover .three {
+   transition-timing-function: ease;
+}
+.timing:hover .four {
+   transition-timing-function: ease-in;
+}
+.timing:hover .five {
+   transition-timing-function: ease-out;
+}
+.timing:hover .six {
+   transition-timing-function: ease-in-out;
+}
+.timing:hover .seven {
+   transition-timing-function: linear;
+}
+
+/* cubic transition */
+.cubic {
+   height: 50vh;
+}
+.cubic .one {
+   transition: 500ms background ease-in, 700ms transform ease-in-out,
+      1000ms height, width ease-out;
+}
+.cubic .one:hover {
+   background: #96f7d2;
+   height: 150px;
+   width: 150px;
+}
+
+.cubic .two {
+   transition: all 200ms ease-in-out;
+}
+.cubic .two:hover {
+   transform: scale(1.3, 1.3) rotate(45deg);
+   transition-duration: 1000ms;
+   /* transition: 500ms transfrom ease-in-out; */
+}

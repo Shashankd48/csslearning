@@ -1,0 +1,27 @@
+/*.big{
+	height: 400px;
+	background: linear-gradient(to right,red,blue);
+}
+.circle{
+	height: 400px;
+	background: radial-gradient(white,gray);
+}*/
+
+a{
+	display: inline-block;
+	text-decoration:none;
+	background: linear-gradient(to left,#ff7a7a,#5dd39e);
+	font-size: 1.2em;
+	text-align: center;
+	padding: 11px 15px;
+	color: white;
+	border-radius: 10px;
+    font-family: 'Lobster', cursive;
+}
+a:hover{
+	background: linear-gradient(to left,green,yellow);
+	padding: 13px 18px;
+}
+input:checked + label{
+	text-decoration: line-through;
+}

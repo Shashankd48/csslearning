@@ -1,0 +1,9 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body {
+   background: url("bg.svg") center center no-repeat;
+   object-fit: cover;
+}

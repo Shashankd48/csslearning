@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    /*background: url(/Images/Bakery/Cake.jpg)*/
+    /*no-repeat center center fixed;*/
+    background-color: #ff6633;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-top: 30px;
+}
+li{
+    float: left;
+}
+li a{
+    display: inline-block; 
+    text-decoration: none;
+    font-size: 1.4em;
+    text-align: center;
+    padding: 10px 14px; 
+    color: Black;
+    border-radius: 10px;
+    font-family: 'Lobster', cursive;
+}
+li a:hover{
+    background: white;
+    color: 	#57bcb2;
+}
+.righty{
+    float: right;
+}    
+.welcome{
+    color: Black;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 250px;
+    font-size: 4em;
+    border: 0px solid;
+    width: 800px;
+    font-family: 'Lobster', cursive;
+}
+.welcome:hover{
+    color:#307e76;
+}
+.subtitle{
+    color: #307e76;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Lobster', cursive;
+    font-size: 1.5em;
+    width: 700px;
+}
+.firstOne{
+    height: 900px;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.secondOne{
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+.thirdOne{
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+/*footer design*/
+.footer{
+    background-color: #343a40;
+    height: 100px;
+    width: 100%;
+    color: gainsboro;
+    font-family: 'PT Sans', sans-serif;
+}
+#copyright{
+    font-size: 14px;
+    width: 80%;
+    height: 100px;
+    float: left;
+}
+#copyright #p1{
+    margin-top: 40px;
+    margin-left: 30%;
+    text-align: center;
+}
+#copyright a{
+    margin-left: 47%;
+    text-align: center;
+    color: gainsboro;
+}
+#copyright a:hover{
+    color: white;
+}
+#terms{
+    font-size: 15px;
+    width: 20%;
+    height: 100px;
+    float: right;
+    color: whitesmoke;
+} 
+#terms p{
+    margin-top: 46px;
+    text-align: center;
+}
+
+/*Middle Design*/

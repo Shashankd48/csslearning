@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1366" height="1050" viewBox="0 0 1366 1050">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00d4ff"/>
+      <stop offset="0.042" stop-color="#07d6ff"/>
+      <stop offset="1" stop-color="#15e6bb"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#14e5bc"/>
+      <stop offset="1" stop-color="#eee"/>
+    </linearGradient>
+    <clipPath id="clip-Artboard_2">
+      <rect width="1366" height="1050"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_2" data-name="Artboard – 2" clip-path="url(#clip-Artboard_2)">
+    <rect width="1366" height="1050" fill="rgba(255,255,255,0.37)"/>
+    <path id="Union_1" data-name="Union 1" d="M-635.614-1610.665v-412.564c-269-72.027-86.458-285.094-39.161-334.83,205.635,173.676,314.626,137.4,425.382,101.126,65.685-21.511,131.987-43.023,219.431-20.74,126.065,32.123,96.1,25.4,67.579,18.686-25.274-5.954-49.413-11.907,37.167,9.169,184.28,44.859,144.218,53.268,369.7,24.671,171.1-21.7,268.757-92.19,305.9-124.925v294.4s-6.991.748-20,2.079v442.931Zm1386-743.5,17.5-12.9a200.119,200.119,0,0,1-17.5,16.993Zm-1437.374-14.359h22.531s-3.923,3.739-10.318,10.464Q-680.822-2363.166-686.988-2368.523Z" transform="translate(635.614 2517.665)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_2" data-name="Rectangle 2" width="1366" height="143" transform="translate(0 907)" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>

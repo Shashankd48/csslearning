@@ -1,0 +1,29 @@
+body {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   background: #427a5b;
+}
+
+.container {
+   height: 100vh !important;
+}
+
+.box {
+   width: max(300px, 70%);
+   /* width: min(400px, 70%); */
+   padding: 40px;
+   background: #427a5b;
+   color: #f5f7fa;
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7), -5px -5px 10px #569e76;
+}
+.box {
+   line-height: 30px;
+}
+.box h1 {
+   font-size: clamp(2rem, 2.85vw, 3rem);
+}
+.box p {
+   /* font-size: min(calc(0.5vw + 0.8rem), calc(0.8vw + 0.8rem)); */
+   font-size: clamp(1.1rem, 1.5vw, 2rem);
+}

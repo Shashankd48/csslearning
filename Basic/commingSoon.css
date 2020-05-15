@@ -1,0 +1,28 @@
+body{
+ background:url(/Images/Different/backlit-dawn-daylight-257092.jpg)
+     no-repeat center center fixed;
+  background-size: cover;
+}
+.fistOne{
+    color:black;
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    border: 7px solid black;
+    width: 400px;
+    padding: 50px;
+    margin: 0px auto;
+    margin-top: 200px;    
+}
+
+.secondOne{
+    color: black;
+    text-align: center;
+    font-family:'Ubuntu', sans-serif;
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+img{
+    color: aqua;
+}

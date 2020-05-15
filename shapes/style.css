@@ -1,0 +1,98 @@
+body {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   height: 100%;
+   /* background: ; */
+}
+
+.card {
+   height: 150px;
+   width: 150px;
+   border-radius: 20px;
+   border: none;
+   background: linear-gradient(to right, #c5e3f6, #fc5c9c);
+   -webkit-transition: background 0.9s ease-in 0s;
+   -moz-transition: background 0.9s ease-in 0s;
+   -ms-transition: background 0.9s ease-in 0s;
+   -o-transition: background 0.9s ease-in 0s;
+   transition: background 0.9s ease-in 0s;
+}
+
+.flipswitch {
+   position: relative;
+   width: 86px;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+}
+.flipswitch input[type="checkbox"] {
+   display: none;
+}
+.flipswitch-label {
+   display: block;
+   overflow: hidden;
+   cursor: pointer;
+   border: 1px solid #999999;
+   border-radius: 50px;
+}
+.flipswitch-inner {
+   width: 200%;
+   margin-left: -100%;
+   -webkit-transition: margin 0.3s ease-in 0s;
+   -moz-transition: margin 0.3s ease-in 0s;
+   -ms-transition: margin 0.3s ease-in 0s;
+   -o-transition: margin 0.3s ease-in 0s;
+   transition: margin 0.3s ease-in 0s;
+}
+.flipswitch-inner:before,
+.flipswitch-inner:after {
+   float: left;
+   width: 50%;
+   height: 29px;
+   padding: 0;
+   line-height: 29px;
+   font-size: 16px;
+   color: white;
+   font-family: Trebuchet, Arial, sans-serif;
+   font-weight: bold;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+.flipswitch-inner:before {
+   content: "ON";
+   padding-left: 14px;
+   background: linear-gradient(to right, rgb(195, 20, 50), rgb(36, 11, 54));
+   color: #ffffff;
+}
+.flipswitch-inner:after {
+   content: "OFF";
+   padding-right: 14px;
+   /* background-color: #ebebeb; */
+   background: linear-gradient(to right, #c5e3f6, #fc5c9c);
+   color: #888888;
+   text-align: right;
+}
+.flipswitch-switch {
+   width: 18px;
+   margin: 5.5px;
+   background: #ffffff;
+   border: 1px solid #999999;
+   border-radius: 50px;
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   right: 56px;
+   -webkit-transition: all 0.3s ease-in 0s;
+   -moz-transition: all 0.3s ease-in 0s;
+   -ms-transition: all 0.3s ease-in 0s;
+   -o-transition: all 0.3s ease-in 0s;
+   transition: all 0.3s ease-in 0s;
+}
+.flipswitch-cb:checked + .flipswitch-label .flipswitch-inner {
+   margin-left: 0;
+}
+.flipswitch-cb:checked + .flipswitch-label .flipswitch-switch {
+   right: 0;
+}

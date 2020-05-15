@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Sticky Position</title>
+      <style>
+         body {
+            height: 200vh;
+            margin: 0px;
+            padding: 0px;
+         }
+         .header {
+            /* position: absolute; */
+            padding: 10px 0px;
+            background-color: #ffffff;
+            position: sticky;
+            top: 0px;
+            margin-top: 20px;
+            transition: all 0.5s ease-in-out;
+         }
+         ul li {
+            display: inline-block;
+            padding: 10px;
+            background-color: #364f6b;
+            color: #fff;
+            margin: 0px 5px;
+            cursor: pointer;
+         }
+         .container {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+         }
+         .heroSection {
+            margin: 100px 50px;
+         }
+         @media (max-width: 576px) {
+            .header {
+               display: block;
+               margin: 0px;
+            }
+            ul li {
+               display: block;
+            }
+         }
+      </style>
+   </head>
+   <body>
+      <div class="header">
+         <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Services</li>
+            <li>Product</li>
+            <li>Buy Now</li>
+         </ul>
+      </div>
+      <div class="container">
+         <div class="heroSection">
+            <h1>Hero Section</h1>
+            <p>
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae
+               quisquam quia iusto, reiciendis consequatur numquam ut maiores
+               accusantium quidem inventore!
+            </p>
+         </div>
+         <div class="text">
+            <p>
+               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi
+               tempore minima possimus! Hic quidem cupiditate iste dolor optio
+               explicabo, totam nisi ex quod, atque sit vero cumque quae dicta
+               rem excepturi amet. Fuga voluptatem consequuntur vero possimus,
+               dolores illo! Asperiores esse minima doloremque. Aspernatur eius
+               nobis, sit libero, perferendis iste tempora laborum architecto
+               commodi eos omnis vitae aut ratione qui rerum impedit voluptas
+               obcaecati quas quia, explicabo ullam? Aliquam rerum amet deleniti
+               eaque non minima. Deserunt pariatur numquam voluptatum
+               reprehenderit quibusdam quisquam consectetur, reiciendis beatae
+               exercitationem minus qui quasi tempore praesentium eveniet culpa
+               ab natus architecto sequi! Animi, repellat temporibus?
+            </p>
+         </div>
+      </div>
+
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam sit,
+      placeat, corporis dolore, nisi laudantium facere inventore delectus
+      quisquam dolor dolorum. Placeat, nisi. Quisquam placeat iusto nostrum modi
+      nam nesciunt delectus sit totam ad corporis.
+   </body>
+</html>

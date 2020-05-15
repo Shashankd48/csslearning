@@ -1,0 +1,120 @@
+body {
+   background: url("../BackgroundTest/bg.svg") no-repeat;
+   color: #ffff;
+   height: 200vh;
+}
+.static,
+.relative,
+.absolute,
+.fixed,
+.sticky {
+   padding: 20px;
+}
+.one,
+.two,
+.three {
+   padding: 7px;
+}
+
+/* Static testing goes here */
+.static {
+   background: #fc85ae;
+   padding: 20px;
+}
+.static .one {
+   background: #21e6c1;
+   /* position: fixed; */
+}
+.static .two {
+   background: #278ea5;
+}
+.static .three {
+   background: #1f4287;
+}
+
+/* Relative Testing goes hee */
+.relative {
+   background: #9e579d;
+}
+.relative .one {
+   background: #a6fff2;
+   position: relative;
+   left: 20px;
+   bottom: 0px;
+   transition: all 0.5s ease-in-out;
+}
+.relative .two {
+   background: #74f9ff;
+   position: relative;
+   left: 20px;
+   transition: all 0.5s ease-in-out;
+}
+.relative .one:hover,
+.relative .two:hover,
+.relative .three:hover {
+   left: 40px;
+   transition: all 0.5s ease-in-out;
+}
+.relative .three {
+   background: #00e0ff;
+   position: relative;
+   left: 20px;
+   transition: all 0.5s ease-in-out;
+}
+
+/* Absolute Testing goes here */
+.absolute {
+   background: #574b90;
+   position: relative;
+}
+.absolute .one {
+   background: #46c3db;
+   position: absolute;
+   top: -15px;
+}
+.absolute .two {
+   background: #2d6cdf;
+   top: 20px;
+   /* position: absolute; */
+}
+.absolute .three {
+   background: #482ff7;
+   /* position: absolute; */
+}
+
+/* Fixed testing goes here */
+.fixed {
+   background: #303a52;
+   /* position: fixed; */
+}
+.fixed .one {
+   background: #ffc4a0;
+   /* position: fixed; */
+}
+.fixed .two {
+   background: #ffcdab;
+   /* position: fixed; */
+}
+.fixed .three {
+   background: #ffa45c;
+   position: fixed;
+   bottom: 0;
+}
+
+/* Sticky Position  goes here*/
+/* Fixed testing goes here */
+.sticky {
+   background: #2c5364;
+   /* position: sticky; */
+}
+.sticky .one {
+   background: #43dde6;
+   position: sticky;
+   top: 0;
+}
+.sticky .two {
+   background: #3d5af1;
+}
+.sticky .three {
+   background: #fc5185;
+}

@@ -1,0 +1,42 @@
+
+/*
+a:link{
+    color: aquamarine;
+}
+a:visited{
+    color: crimson;
+}
+a:hover{
+    color: darkviolet;
+}
+a:active{
+    color: greenyellow;
+}
+*/
+div{
+/*    margin: 0 auto;*/
+/*    margin-top: 100px*/
+    text-align: center;
+    color: darksalmon;
+}
+h1{
+    margin-top: 100px;
+}
+a:link,a:visited{
+    background-color:brown;
+    color: white;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+a:hover{
+    background-color:coral;
+    color: black;
+}
+a:active{
+    background-color: aquamarine;
+}

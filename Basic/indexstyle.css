@@ -1,0 +1,22 @@
+/*
+body{
+    background: #fea1de;
+}
+*/
+h1{
+    color: brown;
+    text-align: center;
+}
+header{
+    font-family: fantasy;
+    font-size: 2em;
+    color: orangered;
+    text-align: center;
+    background: 
+}
+footer{
+    background-color: gray;
+    color: gainsboro;
+    font-family: monospace;
+    font-size: 1.5em;
+}

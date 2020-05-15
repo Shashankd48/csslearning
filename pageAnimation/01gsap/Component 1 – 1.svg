@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="140.86" height="118.755" viewBox="0 0 140.86 118.755">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.961" x2="0.039" y2="0.955" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ebd189"/>
+      <stop offset="1" stop-color="#ffa201"/>
+    </linearGradient>
+  </defs>
+  <g id="Component_1_1" data-name="Component 1 – 1" transform="translate(0.43 0.5)">
+    <path id="Subtraction_1" data-name="Subtraction 1" d="M-1360.521,138.612-1430,73.822a89.771,89.771,0,0,1,24.317-18.5,89.776,89.776,0,0,1,20.257-7.58,90.544,90.544,0,0,1,21.269-2.534A89.684,89.684,0,0,1-1302.8,69.38l3.658,3.41-58.783,63.036-2.6,2.784Z" transform="translate(1434.571 -20.806)" fill="url(#linear-gradient)"/>
+    <g id="t1" transform="translate(-136.5 -138.5)">
+      <line id="Line_1" data-name="Line 1" x2="70" y2="118" transform="translate(136.5 138.5)" fill="none" stroke="#a80000" stroke-width="1"/>
+      <line id="Line_2" data-name="Line 2" x1="70" y2="118" transform="translate(206.5 138.5)" fill="none" stroke="#a80000" stroke-width="1"/>
+      <line id="Line_3" data-name="Line 3" x2="140" transform="translate(136.5 138.5)" fill="none" stroke="#a80000" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

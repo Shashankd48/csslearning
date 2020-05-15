@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+      />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      />
+      <link rel="stylesheet" href="style.css" />
+      <title>SVG Morphing</title>
+   </head>
+   <body>
+      <section class="one">
+         <h1 class="">Hello World</h1>
+         <svg
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            width="100"
+            height="100"
+            viewBox="0 0 100 100"
+            id="darkMode"
+         >
+            <defs>
+               <style>
+                  .a {
+                     fill: url(#a);
+                  }
+               </style>
+               <radialGradient
+                  id="a"
+                  cx="0.5"
+                  cy="0.5"
+                  r="0.56"
+                  gradientUnits="objectBoundingBox"
+               >
+                  <stop offset="0" stop-color="#fd0" />
+                  <stop offset="0" stop-color="#ffda00" />
+                  <stop offset="1" stop-color="#ff8b06" />
+               </radialGradient>
+               <g transform="translate(-520 -481)"></g>
+            </defs>
+            <!-- <path class="a sun" d="M50,0A50,50,0,1,1,0,50,50,50,0,0,1,50,0Z" /> -->
+            <path
+               class="a sun"
+               d="M50,0A50,50,0,1,1,0,50,50,50,0,0,1,50,0Z"
+               transform=" translate(520 490)"
+            />
+            <!-- <path
+               class="a"
+               d="M50,0A50,50,0,1,1,0,50,50,50,0,0,1,50,0Z"
+               transform="translate(520 490)"
+            />
+            <path
+               class="b"
+               d="M50,0A50,50,0,1,1,0,50,50,50,0,0,1,50,0Z"
+               transform="translate(536 481)"
+            /> -->
+         </svg>
+      </section>
+
+      <script src="anime.min.js"></script>
+      <script src="index.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+   </body>
+</html>

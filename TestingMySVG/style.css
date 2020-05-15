@@ -1,0 +1,58 @@
+body {
+   margin: 0;
+   padding: 0;
+   overflow-x: hidden;
+   font-family: "Raleway", sans-serif;
+}
+header {
+   background: url("./bg01.svg") center;
+   background-size: cover;
+   height: 100vh;
+   overflow-x: hidden;
+}
+header .row {
+   height: 70vh;
+   align-items: center;
+}
+.btn {
+   margin-top: 20px;
+   padding: 12px 40px;
+   border-radius: 100px;
+   border: none;
+   background: linear-gradient(to right, #6d1bbfa8, #ce25bda8);
+   color: #ffffff;
+   font-size: 18px;
+   font-weight: 500;
+   -webkit-transition: all 0.3s ease-in 0s;
+   -moz-transition: all 0.3s ease-in 0s;
+   -ms-transition: all 0.3s ease-in 0s;
+   -o-transition: all 0.3s ease-in 0s;
+   transition: all 0.3s ease-in 0s;
+}
+.btn:hover {
+   background: linear-gradient(to left, #6d1bbfa8, #ce25bda8);
+   color: #000000;
+   -webkit-transition: all 0.3s ease-in 0s;
+   -moz-transition: all 0.3s ease-in 0s;
+   -ms-transition: all 0.3s ease-in 0s;
+   -o-transition: all 0.3s ease-in 0s;
+   transition: all 0.3s ease-in 0s;
+}
+.about {
+   margin-bottom: 50px;
+}
+@media (min-width: 768px) {
+   header .row {
+      border: 1px solid black;
+      background: none;
+   }
+}
+@media (max-width: 576px) {
+   header .container {
+      padding: 0px 30px !important;
+   }
+   header {
+      background: none;
+      height: auto;
+   }
+}

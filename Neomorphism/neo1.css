@@ -1,0 +1,61 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body {
+   background-color: #ea7dc7;
+}
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Passion One', cursive;
+font-family: 'Quicksand', sans-serif; */
+.main {
+   margin-top: 120px;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   font-family: "Quicksand", sans-serif;
+}
+.new {
+   height: 300px;
+   width: 300px;
+   background: #e48dc8;
+   box-shadow: inset -2px -2px 2px #da34a5af, 2px 2px 20px #e738b0;
+   border-radius: 23px;
+   text-align: center;
+   padding-top: 30px;
+   margin: 12px 20px;
+   -webkit-transition: all 0.5s ease-out;
+   -moz-transition: all 0.5s ease-out;
+   -o-transition: all 0.5s ease-out;
+   transition: all 0.5s ease-out;
+   cursor: pointer;
+}
+.new:hover {
+   height: 300px;
+   width: 300px;
+   background: #e48dc8;
+   box-shadow: inset -3px -3px 5px #da34a5af, 3px 3px 15px #e738b0;
+   border-radius: 23px;
+   text-align: center;
+   padding-top: 30px;
+   margin: 12px 20px;
+   -webkit-transition: all 0.5s ease-out;
+   -moz-transition: all 0.5s ease-out;
+   -o-transition: all 0.5s ease-out;
+   transition: all 0.5s ease-out;
+}
+.new h3 {
+   padding-bottom: 15px;
+   color: #fff222;
+   text-shadow: 3px 3px 2px #000000a8;
+}
+.new p {
+   color: #fff;
+   text-shadow: 1px 1px 2px #000000;
+}
