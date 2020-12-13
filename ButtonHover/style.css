@@ -1,0 +1,156 @@
+body {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   background: #f0f0f0;
+   background: linear-gradient(45deg, #303a52, #f0f0f0) repeat;
+   min-height: 100vh;
+   /* padding: 30px; */
+}
+
+.myBtn {
+   border: none;
+   padding: 15px 25px;
+   margin: 20px;
+   outline: none !important;
+   position: relative;
+   --background-color: #071a52;
+   --border-size: 3px;
+   box-shadow: 3px 3px 10px rgba(255, 255, 255, 0.3);
+}
+
+/* Border pop */
+.myBtn.pop {
+   background: #17b978;
+   background: linear-gradient(
+      60deg,
+      rgba(23, 185, 120, 1) 0%,
+      rgba(8, 105, 114, 1) 100%
+   );
+   color: #fff;
+}
+.myBtn.pop::before {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   border: var(--border-size) solid var(--background-color);
+   z-index: -1;
+   transition: top, left, right, bottom, 200ms ease-in-out;
+}
+
+.myBtn.pop:hover::before,
+.myBtn.pop:focus::before {
+   top: calc(var(--border-size) * -1);
+   left: calc(var(--border-size) * -1);
+   right: calc(var(--border-size) * -1);
+   bottom: calc(var(--border-size) * -1);
+}
+
+/* Background slide */
+.myBtn.slide {
+   color: #fff;
+   z-index: 1;
+   background-color: rgba(244, 105, 169, 1);
+}
+.myBtn.slide::before {
+   content: "";
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background: linear-gradient(
+      145deg,
+      rgba(244, 250, 156, 1) 0%,
+      rgba(244, 105, 169, 1) 100%
+   );
+   z-index: -1;
+   transform: scaleX(0);
+   transform-origin: left;
+   transition: transform 300ms ease-in-out;
+}
+.myBtn.slide:hover::before,
+.myBtn.slide:focus::before {
+   transform: scaleX(1);
+}
+.myBtn.slide:hover {
+   transition: color 200ms ease-in;
+   color: #000;
+}
+
+.myBtn.circle {
+   background: rgba(54, 79, 107, 1);
+   color: #fff;
+   z-index: 1;
+   overflow: hidden;
+   border-radius: 100px;
+}
+
+.myBtn.circle::before {
+   content: "";
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   border-radius: 50%;
+   z-index: -1;
+   background: rgb(252, 81, 133);
+   background: linear-gradient(
+      30deg,
+      rgba(252, 81, 133, 1) 0%,
+      rgba(54, 79, 107, 1) 100%
+   );
+   transform: scale(2);
+   transition: transform 500ms ease-in;
+}
+.myBtn.circle:hover::before,
+.myBtn.circle:focus::before {
+   transform: scale(0);
+}
+
+.myBtn.underline {
+   background: #581b98;
+   color: #fff;
+   z-index: 1;
+}
+.myBtn.underline::before {
+   content: "";
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   height: var(--border-size);
+   background-color: #fff;
+   transform: scaleX(0);
+   transition: transform 400ms ease-out;
+   transform-origin: left;
+}
+.myBtn.underline:hover::before,
+.myBtn.underline:focus::before {
+   transform: scaleX(1);
+}
+
+h1 {
+   display: block;
+   cursor: pointer;
+   position: relative;
+}
+h1::before {
+   content: "";
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   height: 3px;
+   margin-top: 1px;
+   background: rgba(244, 105, 169, 1);
+   transform: scaleX(0);
+   transition: transform 500ms ease-in-out;
+}
+h1:hover::before {
+   transform: scaleX(1);
+}

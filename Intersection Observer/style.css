@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+html {
+   scroll-behavior: smooth;
+}
+body {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Varela Round", sans-serif;
+   /* letter-spacing: 1px; */
+}
+
+header {
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+   position: sticky;
+   top: 0;
+   background: transparent;
+}
+.nav-transparent {
+   background: transparent;
+}
+nav {
+   min-height: 12vh;
+   margin: auto;
+   display: flex;
+   padding: 10px 100px;
+   align-items: center;
+   justify-content: space-between;
+}
+nav .logo,
+nav ul {
+   flex: 1;
+}
+nav ul {
+   padding: 0;
+   margin: 0;
+   list-style: none;
+   display: flex;
+   justify-content: space-between;
+   font-size: 1.1rem;
+   z-index: 10;
+}
+nav a {
+   color: #000000;
+   text-decoration: none;
+}
+nav a:hover {
+   text-decoration: none;
+   color: #000000a7;
+}
+
+.hero {
+   background: linear-gradient(to right, #c94b4b, #4b62c9);
+   /* transform-origin: left; */
+   /* transition: all 0.4s ease-in; */
+}
+.hero a {
+   color: #ffffff !important;
+}
+/* li {
+   padding: 9px 25px;
+   background: #ffffff;
+   border-radius: 100px;
+   box-sizing: border-box;
+} */
+section {
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   padding: 0 100px;
+   color: #ffffff;
+}
+section:nth-child(1) {
+   background: linear-gradient(to right, #c94b4b, #4b134f);
+}
+section:nth-child(2) {
+   background: linear-gradient(to right, #24243e, #302b63);
+}
+section:nth-child(3) {
+   background: linear-gradient(to right, #00b09b, #96c93d);
+}
+section h1 {
+   margin: 40px 0;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+}
+section p {
+   font-size: 17px;
+   width: 70vw;
+}
+
+.bubble {
+   position: absolute;
+   z-index: -2;
+   background: linear-gradient(to right, #c94b4b, #4b134f);
+   transform: scale(2, 1.8);
+   border-radius: 300px;
+   transition: all 0.3s ease-in;
+}
+a:hover {
+   position: absolute;
+   z-index: -2;
+   background: linear-gradient(to right, #c94b4b, #4b134f);
+
+   border-radius: 300px;
+   transition: all 0.3s ease-in;
+}
